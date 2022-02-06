@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(230, 227, 227);
+  width:100%;
+  height: 100%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    direction: rtl;
+    width:40vw;
+    background-color: rgb(207, 206, 206);
+    padding:1vw;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  width:30vw;
+  background-color: white;
+  height: 75vh;
+}
+
+.main{
+  padding-top:5vw;
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+}
+
+.inputurl{
+  width:34.2vw;
+  padding:0.2vw;
+}
+
+.buttonurl{
+margin:0;
+width:4.2vw;
+padding:0.8vh 0;
+text-align: center;
+background-color: red;
+border: none;
+color:white;
+margin-right: 0.5vw;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.red{
+  background-color: rgb(226, 65, 65);
+  color:white;
+  width: fit-content;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3vh;
+  line-height:3vh;
+  font-size:2.5vh;
+}
+
+.yellow{
+ background-color: rgb(218, 218, 62);
+ color:white;
+ width: fit-content;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3vh;
+  line-height:3vh;
+  font-size:2.5vh;
+}
+
+.green{
+ background-color: rgb(64, 197, 64);
+ color:white;
+ width: fit-content;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3vh;
+  line-height:3vh;
+  font-size:2.5vh;
+}
+
+.blue{
+ background-color: rgb(68, 68, 216);
+ color:white;
+ width: fit-content;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3vh;
+  line-height:3vh;
+  font-size:2.5vh;
+}
+
+.activeSlide {
+  display: block;
+  transition: transform .5s ease-in-out;
+}
+.activeSlide:hover{
+  transform: scale(1.3);
+  cursor: zoom-in;
+}
+.unActiveSlide {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  padding: 0.5vw;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.imgGallery{
+  width:30vw;
+  height: 40vh;
+}
+
+.arrows{
+ direction: rtl;
+ position: absolute;
+ margin: 16vh 0 ;
+ width:30vw;
+}
+
+.prev{
+  margin-left: 25.9vw;
+}
+
+input{
+  height: 3.2vh;
+  margin:1vh 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+textarea{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+select{
+  height: 4.2vh;
+  margin:1vh 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.buttonadd{
+  height: 4vh;
+  background-color: rgb(64, 194, 233);
+  color:white;
+  border:none;
+  margin:1vh 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.info{
+  width:28vw;
+  padding:0 1vw;
+}
+
+.ptitle{
+  font-weight: bold;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 8vh;
+  line-height:4vh;
+  font-size:3.5vh;
+}
+
+p{
+  margin:2vh;
+}
+
+.psubtitle{
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 9vh;
+  line-height:3vh;
+  font-size:2.5vh;
+}
+
+.pauthorname{
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 2.5vh;
+  line-height:2.5vh;
+  font-size:2vh;
+}
